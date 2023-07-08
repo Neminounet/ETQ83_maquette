@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bd5e9137ee.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>En toute Quiétude 83 -- Gestion disponibilités</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="title_container">
+                <div class="title_logo">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+                <h1>
+                    <a href="./index.html">En Toute Quiétude 83</a>
+                </h1>
+            </div>
+            <div class="connect_container">
+                <button><a href="./workspace.html">Workspace</a></button>
+              
+            </div>
+        </header>
+        <main>
+            <div class="main-container">
+                <div class="rdv-content">
+                    <div class="rdv-a-prendre">
+                        <form action="#">
+                            <h3>Disponibilités posées</h3>
+                            <div>
+                                <label for="date">selectionner une date</label>
+                                <select name="date" id="date">
+                                    <option disabled value="vide" selected>Selectionner date</option>
+                                    <option value="date1">06/06/2023</option>
+                                    <option value="date2">07/06/2023</option>
+                                </select>
+                            </div>
+                            <div class="rdv-pris">
+                                <h3>Disponibilités du : 06/06/2023</h3>
+                                <button>06/06/2023 -- 08H00</button>
+                                <button>06/06/2023 -- 09H00</button>
+                                <button>06/06/2023 -- 10H00</button>
+                                <button>06/06/2023 -- 11H00</button>
+                                <button>06/06/2023 -- 14H00</button>
+                                <button>06/06/2023 -- 15H00</button>
+                                <button>06/06/2023 -- 16H00</button>
+                                <button>06/06/2023 -- 17H00</button>
+                                <button>06/06/2023 -- 18H00</button>  
+                            </div>
+                        </form>
+                    </div>
+                    <div class="rdv-a-prendre">
+                        <form action="#">
+                            <h3>Poser une disponibilité</h3>
+                            <div>
+                                <label for="date">Choisir une date</label>
+                                <input type="date" name="date" id="date">
+                            </div>
+                            <div>
+                                <label for="heure">selectionner un horaire</label>
+                                <select name="heure" id="heure">
+                                    <option disabled value="vide" selected>Selectionner horaire</option>
+                                    <option value="h1">08H00</option>
+                                    <option value="h2">09H00</option>
+                                    <option value="h3">10H00</option>
+                                    <option value="h4">11H00</option>
+                                    <option value="h5">14H00</option>
+                                    <option value="h6">15H00</option>
+                                    <option value="h7">16H00</option>
+                                    <option value="h8">17H00</option>
+                                    <option value="h9">18H00</option>
+                                    <option value="h10">19H00</option>
+                                </select>
+                            </div>
+                            <div>
+                                <button>Poser Disponibilité</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>En Toute Quiétude 83 -- 2023</p>
+        </footer>
+    </div>
+</body>
+</html>
